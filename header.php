@@ -40,7 +40,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" class="active">
+					<a href="/blog/" class="active">
 						<span>Akvo now</span>
 					</a>
 				</li>
