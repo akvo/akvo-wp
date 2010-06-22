@@ -30,8 +30,8 @@
 				</div>
 			</div>
 		<?php endwhile; ?>
-		<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-		<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+		<div style="float:left;" class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
+		<div style="float:right;" class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
 		
 	<?php else : ?>		
 		<h2 class="center">Not Found</h2>
@@ -40,22 +40,6 @@
 	<?php endif; ?>
 </div>
 <div class="span-8 last">
-	<div style="float:left; width:207px; background-color:cyan;">
-		<p>&nbsp;</p>
-		<ul>
-			<li>Search</li>
-			<li>Recent posts</li>
-			<li>Find akvo here</li>
-		</ul>
-	</div>
-	<div style="float:left; width:207px; margin-left:11px; background-color:orange;">
-		<p>&nbsp;</p>
-		<ul>
-			<li>Categories</li>
-			<li>Archives</li>
-			<li>Participate</li>
-		</ul>
-	</div>
-	<div class="clear"></div>
+	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
