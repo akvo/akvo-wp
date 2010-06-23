@@ -802,8 +802,15 @@ a#main_nav_left {
     background-image: -moz-linear-gradient(100% 100% 90deg, #FDFEFE, #EFF3F3);
     }
 
+/* wordpress.html --------------------------------------------------------------*/
 
+/*div.entry {
+    margin-top:10px;
+    font-size:14px;
+    }
 
-
-
+.entry p {
+    font-size:14px;
+    }
+*/    
 

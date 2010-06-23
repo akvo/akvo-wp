@@ -10,21 +10,18 @@
 							<a href="<?php the_permalink() ?>" rel="bookmark" 
 								title="Permanent Link to <?php the_title_attribute(); ?>">
 								<?php the_title(); ?>
-								<div class="entry">
-	                                <?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignleft post_thumbnail")); } ?>
-									<?php the_content(''); ?>
-	                                <div class="readmorecontent">
-										<a class="readmore" href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More &raquo;</a>
-									</div>
-								</div>
-								
-								
 							</a>
 						</h2>
-						
-						<hr />
+						<div class="entry">
+							<?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignleft post_thumbnail")); } ?>
+							<?php the_content(''); ?>
+						</div>
+						<hr style="margin: 1px 0px 4px 0px;"/>
 						<p class="small grey">
-							<?php the_time('F jS, Y') ?>
+							Posted in <?php the_category(', ') ?> on
+							<?php the_time('F jS, Y') ?> By <?php the_author() ?>.<br />
+							<?php if (current_user_can('edit_post', $post->ID)) {  
+								edit_post_link('Edit', '', ''); } ?>
 						</p>
 					</div>
 				</div>
