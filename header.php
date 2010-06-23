@@ -80,15 +80,6 @@
 		</div>
 	</div>
 	<div id="main_container" class="container">
-			<div class="span-18" style="margin-bottom:20px;">
-				<div id="breadcrum_back">
-					<ul id="breadcrum">
-						<li><a href="/"><span>Home</span></a></li>
-						<li id="last_breadcrum_item">Blog</li>
-					</ul>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<div class="span-18" style="margin-bottom:20px;">
+			
 	
 	

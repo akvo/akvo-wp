@@ -1,5 +1,15 @@
 
 <?php get_header(); ?>
+<div class="span-18" style="margin-bottom:20px;">
+	<div id="breadcrum_back">
+		<ul id="breadcrum">
+			<li><a href="/"><span>Home</span></a></li>
+			<li id="last_breadcrum_item">Blog</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="span-18" style="margin-bottom:20px;">
 <div class="span-10 first">
 	<?php if (have_posts()) : ?>	
 		<?php while (have_posts()) : the_post(); ?>
