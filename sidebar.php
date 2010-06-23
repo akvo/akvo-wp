@@ -22,5 +22,6 @@
 		<h2>Archives</h2>
 		<?php wp_get_archives('type=monthly'); ?>
 	</ul>
+	<h3 class="widget-title"><?php _e( 'Archives', 'twentyten' ); ?></h3>
 </div>
 <div class="clear"></div>
