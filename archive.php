@@ -5,7 +5,16 @@
 		<ul id="breadcrum">
 			<li><a href="/"><span>Home</span></a></li>
 			<li><a href="<?php bloginfo('wpurl'); ?>"><span>Blog</span></a></li>
-			<li id="last_breadcrum_item">Posts from the &quot;<?php single_cat_title(); ?>&quot; category</li>
+			<li id="last_breadcrum_item">
+				Posts from
+				<?php 
+					if (have_posts()) :
+						$post = $posts[0]; // Hack. Set $post so that the_date() works.
+						echo the_time('F Y');
+					endif;
+				?>
+			</li>
+				
 		</ul>
 		<div class="clear"></div>
 	</div>
