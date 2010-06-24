@@ -14,7 +14,6 @@
 					endif;
 				?>
 			</li>
-				
 		</ul>
 		<div class="clear"></div>
 	</div>

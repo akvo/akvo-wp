@@ -2,10 +2,20 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<link rel="shortcut icon" href="http://www.akvo.org/images/favicon.ico" />
 	<title>
 		<?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' |'; } ?> <?php bloginfo('name'); ?>
 	</title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
+	<link rel="alternate" type="application/rss+xml" 
+		title="Akvo blog posts" href="<?php bloginfo('rss2_url'); ?>" />
+
+	<link rel="alternate" type="application/rss+xml" 
+		title="Akvo blog comments" href="<?php bloginfo('comments_rss2_url'); ?>" />
+			
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	
+	
 	<?php wp_head();?>
 </head>
 <body <?php body_class(); ?>>

@@ -1,27 +1,31 @@
-<div style="float:left; width:207px; background-color:cyan;">
+<div style="float:left; width:207px;">
 	<p>&nbsp;</p>
 	<div class="space10">
+		<?php get_search_form(); ?>
+		<h2>Recent Posts</h2>
 		<ul>
-			<li id="search" class="widget-container widget_search">
-				<?php get_search_form(); ?>
-			</li>
-			<li><h2><?php _e('Recent Posts'); ?></h2>
-		               <ul>
-				<?php wp_get_archives('type=postbypost&limit=5'); ?>  
-		               </ul>
-			</li>
+			<?php wp_get_archives('type=postbypost&limit=5'); ?>  
+          </ul>
+		<h2>Meta</h2>
+		<ul>
+			<li><a href="<?php bloginfo('rss2_url'); ?>">Posts feed</a></li>
+			<li><a href="<?php bloginfo('comments_rss2_url'); ?>">Comments feed</a></li>
+			<li><?php wp_loginout(); ?></li>
+			<?php wp_register(); ?>
 		</ul>
 	</div>
 </div>
-<div style="float:left; width:207px; margin-left:11px; background-color:orange;">
+<div style="float:left; width:207px; margin-left:11px;">
 	<p>&nbsp;</p>
+	<h2>Categories</h2>
 	<ul>
-		<li>
-			<?php wp_list_categories('hide_empty=1&show_count=0&depth=1&title_li=<h2>Categories</h2>'); ?>
-		</li>
-		<h2>Archives</h2>
-		<?php wp_get_archives('type=monthly'); ?>
+		<?php wp_list_categories('hide_empty=1&show_count=1&depth=1&title_li='); ?>
 	</ul>
-	<h3 class="widget-title"><?php _e( 'Archives', 'twentyten' ); ?></h3>
+	
+	<h2>Archives</h2>
+	<ul>
+		<?php wp_get_archives('type=monthly&show_post_count=1'); ?>
+	</ul>
+	
 </div>
 <div class="clear"></div>
