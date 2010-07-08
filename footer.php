@@ -69,30 +69,13 @@
 </div>
 	
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-
-
 <script type="text/javascript">
 	var $ = jQ = jQuery.noConflict();
 	
 	jQ(document).ready(function(){
-		{% block jq_ready %}{% endblock jq_ready %}
-		/*
-		jQ('#main_nav_account').click(function () {
-			jQ('#account_nav').slideToggle();
-		});
-		*/
 		
-		jQ('#grid_toggle').click(function () {
-			jQ('.container').toggleClass('showgrid');
-		});
-		
-		if (Modernizr.cssanimations) {
-			jQ('#modern_header').html('Browser supports CSS Animations');
-		} else {
-			jQ('#modern_header').html('No browser support for CSS Animations');
-		};
-		
-	});		
+	
+	});	
 </script>	
 </body>
 </html>

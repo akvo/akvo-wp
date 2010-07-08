@@ -15,7 +15,6 @@
 			
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	
-	
 	<?php wp_head();?>
 </head>
 <body <?php body_class(); ?>>
@@ -30,7 +29,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="/wiki/">
 						<span>Akvopedia</span>
 					</a>
 				</li>
@@ -45,7 +44,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="/web/get_involved/">
 						<span>Get involved</span>
 					</a>
 				</li>
@@ -54,6 +53,7 @@
 						<span>Blog</span>
 					</a>
 				</li>
+				<?php/*
 				<li>
 					<span id="main_nav_language">
 						<span class="small" style="margin-left:20px; margin-top:9px; display:block; ">
@@ -61,31 +61,18 @@
 						</span>
 					</span>
 				</li>
+				
 				<li>
 					<a id="grid_toggle" href="#">
 						<span>My Akvo</span>
 					</a>
 				</li>
-				<li>
+				<li id="mainnav_account_item">
 					<a id="main_nav_account" href="#">
 						<span>Sign in</span>
 					</a>
-					<?php
-					/*
-					
-					{% if not user.username %}
-						<a id="main_nav_account" href="{% url signin %}?next={{request.path}}">
-							<span>{% trans 'Sign in' %}</span>
-						</a>
-					{% else %}
-						<a id="main_nav_account" href="{% url akvo.rsr.views.signout %}" title="{{user.username}}">
-							<span>{% trans 'Account' %}</span>
-							{# <span>{% trans 'Sign out' %}</span> #}
-						</a>
-					{% endif %}
-					*/
-					?>
 				</li>
+				*/?>
 			</ul>
 		</div>
 	</div>
