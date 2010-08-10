@@ -1,36 +1,14 @@
 <div style="float:left; width:207px;">
-	<ul id="sidebar1">
 	<?php if ( !function_exists('dynamic_sidebar')
 	        || !dynamic_sidebar(1) ) : ?>
-	 <li id="about">
-	  <h2>About</h2>
-	  <p>This is my blog.</p>
-	 </li>
-	 <li id="links">
-	  <h2>Links</h2>
-	  <ul>
-	   <li><a href="http://example.com">Example</a></li>
-	  </ul>
-	 </li>
+	<p>Theme is developed for dynamic sidebars!</p>
 	<?php endif; ?>
-	</ul>
 </div>
 <div style="float:left; width:207px; margin-left:11px;">
-	<ul id="sidebar2">
 	<?php if ( !function_exists('dynamic_sidebar')
 	        || !dynamic_sidebar(2) ) : ?>
-	 <li id="about">
-	  <h2>About</h2>
-	  <p>This is my blog.</p>
-	 </li>
-	 <li id="links">
-	  <h2>Links</h2>
-	  <ul>
-	   <li><a href="http://example.com">Example</a></li>
-	  </ul>
-	 </li>
+	<p>Theme is developed for dynamic sidebars!</p>
 	<?php endif; ?>
-	</ul>
 </div>
 <div class="clear"></div>
 	
@@ -41,7 +19,7 @@
 		<?php get_search_form(); ?>
 		<h2>Recent Posts</h2>
 		<ul class="small">
-			<?php wp_get_archives('type=postbypost&limit=5'); ?>  
+			<?php wp_get_archives('type=postbypost&limit=5'); ?>
           </ul>
 		<h2>Meta</h2>
 		<ul class="small">

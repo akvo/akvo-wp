@@ -5,8 +5,8 @@
 	if ( function_exists('register_sidebar') )
 	    register_sidebars(2, array(
 			'before_widget' => '',
-			'after_widget' => '',
+			'after_widget' => '</div></div><br />',
 			'before_title' => '<h2>',
-			'after_title' => '</h2>',
+			'after_title' => '</h2><div class="white_box"><div class="space20">',
 		));
 ?>
