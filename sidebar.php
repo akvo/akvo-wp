@@ -1,47 +1,17 @@
-<div style="float:left; width:207px;">
+<div style="float:left; width:205px;">
+	<div class="white_box"><div class="space20">
+		<?php get_search_form(); ?>
+	</div></div>
+	<br />
 	<?php if ( !function_exists('dynamic_sidebar')
 	        || !dynamic_sidebar(1) ) : ?>
 	<p>Theme is developed for dynamic sidebars!</p>
 	<?php endif; ?>
 </div>
-<div style="float:left; width:207px; margin-left:11px;">
+<div style="float:left; width:205px; margin-left:15px;">
 	<?php if ( !function_exists('dynamic_sidebar')
 	        || !dynamic_sidebar(2) ) : ?>
 	<p>Theme is developed for dynamic sidebars!</p>
 	<?php endif; ?>
 </div>
 <div class="clear"></div>
-	
-<?php /* 
-<div style="float:left; width:207px;">
-	<p>&nbsp;</p>
-	<div class="space10">
-		<?php get_search_form(); ?>
-		<h2>Recent Posts</h2>
-		<ul class="small">
-			<?php wp_get_archives('type=postbypost&limit=5'); ?>
-          </ul>
-		<h2>Meta</h2>
-		<ul class="small">
-			<li><a href="<?php bloginfo('rss2_url'); ?>">Posts feed</a></li>
-			<li><a href="<?php bloginfo('comments_rss2_url'); ?>">Comments feed</a></li>
-			<li><?php wp_loginout(); ?></li>
-			<?php wp_register(); ?>
-		</ul>
-	</div>
-</div>
-<div style="float:left; width:207px; margin-left:11px;">
-	<p>&nbsp;</p>
-	<h2>Categories</h2>
-	<ul class="small">
-		<?php wp_list_categories('hide_empty=1&show_count=1&depth=1&title_li='); ?>
-	</ul>
-	
-	<h2>Archives</h2>
-	<ul class="small">
-		<?php wp_get_archives('type=monthly&show_post_count=1'); ?>
-	</ul>
-	
-</div>
-<div class="clear"></div>
-*/?>
