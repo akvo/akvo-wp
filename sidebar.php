@@ -1,4 +1,41 @@
 <div style="float:left; width:207px;">
+	<ul id="sidebar1">
+	<?php if ( !function_exists('dynamic_sidebar')
+	        || !dynamic_sidebar(1) ) : ?>
+	 <li id="about">
+	  <h2>About</h2>
+	  <p>This is my blog.</p>
+	 </li>
+	 <li id="links">
+	  <h2>Links</h2>
+	  <ul>
+	   <li><a href="http://example.com">Example</a></li>
+	  </ul>
+	 </li>
+	<?php endif; ?>
+	</ul>
+</div>
+<div style="float:left; width:207px; margin-left:11px;">
+	<ul id="sidebar2">
+	<?php if ( !function_exists('dynamic_sidebar')
+	        || !dynamic_sidebar(2) ) : ?>
+	 <li id="about">
+	  <h2>About</h2>
+	  <p>This is my blog.</p>
+	 </li>
+	 <li id="links">
+	  <h2>Links</h2>
+	  <ul>
+	   <li><a href="http://example.com">Example</a></li>
+	  </ul>
+	 </li>
+	<?php endif; ?>
+	</ul>
+</div>
+<div class="clear"></div>
+	
+<?php /* 
+<div style="float:left; width:207px;">
 	<p>&nbsp;</p>
 	<div class="space10">
 		<?php get_search_form(); ?>
@@ -29,3 +66,4 @@
 	
 </div>
 <div class="clear"></div>
+*/?>
