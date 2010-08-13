@@ -1,8 +1,10 @@
 <div style="float:left; width:205px;">
+	<?php /* 
 	<div class="white_box"><div class="space20">
 		<?php get_search_form(); ?>
 	</div></div>
 	<br />
+	*/?>
 	<?php if ( !function_exists('dynamic_sidebar')
 	        || !dynamic_sidebar(1) ) : ?>
 	<p>Theme is developed for dynamic sidebars!</p>

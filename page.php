@@ -20,12 +20,16 @@ Template Name: About
 		<?php if (have_posts()) : while (have_posts()) : the_post();?>
 			<div class="white_box">
 				<div class="space20">
-					<h2 class="title">
-						<a href="<?php the_permalink() ?>" rel="bookmark" 
-							title="Permanent Link to <?php the_title_attribute(); ?>">
+					<a href="<?php the_permalink() ?>" rel="bookmark" 
+						title="Permanent Link to <?php the_title_attribute(); ?>">
+						<h1 class="title" style="margin-bottom:5px;">
 							<?php the_title(); ?>
-						</a>
-					</h2>
+						</h1>
+					</a>
+					<p class="grey" style="font-weight:bold;">
+						<?php the_time('F jS, Y') ?> by <?php the_author() ?>
+					</p>
+					
 					<?php the_content('<p class="serif">Read the rest of this page &raquo;</p>'); ?>
 					<?php if (current_user_can('edit_post', $post->ID)) {
 					?>

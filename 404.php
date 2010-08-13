@@ -12,11 +12,14 @@
 </div>
 <div class="span-18" style="margin-bottom:20px;">
 <div class="span-10 first">
-	<div class="white_box">
+	<div class="white_box" style="min-height:400px;">
 		<div class="space20">
-			<h2 class="title">Error 404 - Page Not Found</h2>
-			<p class="center">Sorry, but you are looking for something that isn't here.</p>
-			<?php get_search_form(); ?>
+			<h1 class="title">Error 404 - Page Not Found</h1>
+			<br />
+			<h3>
+				Sorry, but you are looking for something that isn't here.
+				Maybe you want to head to the <a href="<?php echo get_bloginfo('url'); ?>">front page</a> of the blog.
+			</h3>
 		</div>
 	</div>
 </div>
