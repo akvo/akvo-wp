@@ -34,6 +34,11 @@
 					</a>
 				</li>
 				<li>
+					<a href="/web/focus-areas/">
+						<span>Focus Areas</span>
+					</a>
+				</li>
+				<li>
 					<a href="/rsr/organisations/">
 						<span>Partners</span>
 					</a>
