@@ -39,7 +39,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="/rsr/organisations/">
+					<a href="/web/partners/">
 						<span>Partners</span>
 					</a>
 				</li>
@@ -49,7 +49,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="/web/get_involved/">
+					<a href="/web/about/">
 						<span>About</span>
 					</a>
 				</li>
