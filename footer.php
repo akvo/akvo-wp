@@ -12,7 +12,7 @@
 			</p>
 		</div>
 		<div class="span-18">
-		    <div class="span-3 first">
+			<div class="span-3 first">
 				<h3>Policies</h3>
 				<p class="small">
 					<a href="/web/terms_of_use">General terms of use</a><br />
@@ -20,9 +20,9 @@
 					<a href="/web/donation_policy">Donations</a><br />
 					<a href="/web/partners_and_projects_policy">Partners</a><br />
 					<a href="/web/akvo-rsr-api-code-of-conduct">
-						Akvo RSR API Code of Conduct
+						Akvo API code of conduct
 					</a><br />
-					<a href="/web/user_contribution_policy">User Contribution Policy</a><br />	
+					<a href="/web/user_contribution_policy">User submitted content</a><br />	
 					<a href="/web/open_license">Licensing and copyrights</a><br />
 				</p>
 			</div>
@@ -33,7 +33,7 @@
 					<a href="/web/how-it-works">How it works</a><br />
 					<a href="/web/team">Team</a><br />
 					<a href="/web/jobs">Working at Akvo</a><br />
-					<a href="/web/faq">Akvo Frequently Asked Questions</a><br />
+					<a href="/web/faq">Akvo FAQ</a><br />
 					<br />
 					<a href="/web/press">Press</a><br />
 					<a href="/web/annual_reports">Annual reports</a><br />
@@ -53,29 +53,27 @@
 			<div class="span-3">
 				<h3>Developers</h3>
 				<p class="small">
-					<a href="/rsr/admin">Akvo RSR login</a><br />
-					<a href="/blog/wp-login.php">Blog</a><br />
-					<a href="/web/?q=node/24">CMS</a><br />
+					<a href="/labs/">AkvoLabs</a><br />
+					<a href="http://github.com/akvo/">Source code</a><br />
 				</p>
 			</div>
 			<div class="span-3">
 				<h3>Admin</h3>
 				<p class="small">
-					<a href="/labs/">AkvoLabs</a><br />
-					<a href="http://github.com/akvo/">Source Code</a><br />
+					<a href="/rsr/admin">Akvo RSR login</a><br />
+					<a href="/blog/wp-login.php">Blog</a><br />
+					<a href="/web/?q=node/24">CMS</a><br />
 				</p>
 			</div>
 			<div class="span-3 last">
 				<h3>Contact us</h3>
 				<p class="small">
-					<a href="http://help.akvo.org/">Help + Support</a><br />
+					<a href="http://help.akvo.org/">Help + support</a><br />
 					<a href="/web/contact_us">Contact info</a><br />
 					<br />
-					<a class="red" href="http://help.akvo.org/discussion/new ">Report a problem</a><br />
+					<a class="red" href="http://help.akvo.org/discussion/new">Report a problem</a><br />
 				</p>
 			</div>
-		
-		
 		</div>
 	</div>
 </div>
