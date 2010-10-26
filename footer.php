@@ -5,7 +5,10 @@
 		<div class="span-18">
 			<h2>About Akvo.org</h2>
 			<p>
-				We help donors and doers reach out to fund many thousands of new water and sanitation projects. Money flows quickly because donors choose what to fund and follow progress online. People can use these storylines to build exciting new campaigns and networks. Our partners lead the world in sharing updates using Akvo tools. Better feedback means happy donors, and dialogue between field workers builds skills and improves quality. Time and money are saved while people across the world get safe drinking water and proper sanitation.
+			    We are a non-profit foundation headquartered in the Netherlands. We help connect 
+                doers and donors to transform communities in some of the poorest parts of the world. 
+                The Akvo platform is open source and we encourage others to build on and improve 
+                these tools, or adapt the platform for other purposes.
 			</p>
 		</div>
 		<div class="span-18">
