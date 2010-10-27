@@ -28,7 +28,7 @@
 						<div class="entry">
 							<?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignleft post_thumbnail")); } ?>
 							
-							<?php the_content('More...'); ?>
+							<?php the_content('Read the rest of this entry &raquo;'); ?>
 							<?php /* the_content(''); */?>
 						</div>
 						<hr style="margin: 1px 0px 4px 0px;"/>
