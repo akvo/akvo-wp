@@ -27,7 +27,9 @@
 						</p>
 						<div class="entry">
 							<?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignleft post_thumbnail")); } ?>
-							<?php the_content(''); ?>
+							
+							<?php the_content('More...'); ?>
+							<?php /* the_content(''); */?>
 						</div>
 						<hr style="margin: 1px 0px 4px 0px;"/>
 						<div style="float:left; width:390px;">
