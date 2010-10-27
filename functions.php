@@ -16,11 +16,15 @@
 		<h2>Search for</h2>
 		<div class="white_box">
 			<div class="space20">
-				<form role="search" method="get" id="searchform" name="searchform" action="<?php echo get_bloginfo('url'); ?>">
+				<form role="search" method="get" id="search_form" name="search_form" action="<?php echo get_bloginfo('url'); ?>">
 					<input type="text" value="" name="s" id="s" style="width:155px;" />
 					<div style="text-align:right">
-						<a class="awesome aqua small" href="javascript:document.searchform.submit();">Search</a>
-						<input type="submit" name="submit" value="search" id="search" style="display:none;">
+					    <?php /*
+						<a class="awesome aqua small" href="javascript:" onclick="this.blur();">
+						    Search
+						</a>
+						*/?>
+						<input type="submit" name="submit" value="search" id="search" style="">
 					</div>
 					<!-- <input type="submit" id="searchsubmit" value="Search" /> -->
 				</form>
