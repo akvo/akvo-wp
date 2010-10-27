@@ -16,7 +16,7 @@
 		<h2>Search for</h2>
 		<div class="white_box">
 			<div class="space20">
-				<form role="search" method="get" id="searchform" name="searchform" action="http://127.0.0.1/~daniel/akvo-wp/" >
+				<form role="search" method="get" id="searchform" name="searchform" action="<?php echo get_bloginfo('url'); ?>">
 					<input type="text" value="" name="s" id="s" style="width:155px;" />
 					<div style="text-align:right">
 						<a class="awesome aqua small" href="javascript:document.searchform.submit();">Search</a>
@@ -30,7 +30,7 @@
 	<?php
 	}
 	if ( function_exists('register_sidebar_widget') )
-	    register_sidebar_widget(__('Search2'), 'widget_akvo_search');
+	    register_sidebar_widget(__('Akvo search'), 'widget_akvo_search');
 	
 		
 ?>
